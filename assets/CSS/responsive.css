@@ -1,0 +1,1049 @@
+@media (max-width: 2561px) {
+    .BarsNavs {
+        display: none;
+    }
+}
+
+@media (max-width: 1441px) {
+    .secondCont2TextCont {
+        margin-left: 20px;
+    }
+
+    .CartonCart {
+        left: 40%;
+    }
+
+    .FourthContAlignL h1 {
+        font-size: 48px;
+    }
+
+
+    .SecondContMainGrid {
+        grid-template-columns: repeat(3, 267px);
+    }
+
+    .imgcont4Align {
+
+        position: absolute;
+    }
+
+    .ForthContAlign {
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width: 1110px) {
+
+    .SecondContMainGrid {
+        grid-template-columns: repeat(2, 267px);
+    }
+
+    .secondCont2 {
+        width: 100%;
+    }
+
+    .secondcont3Align {
+        width: 90%;
+    }
+
+    .secondcont3AlignL {
+        width: 60%;
+    }
+
+    .FourthContAlignL {
+        margin-left: 20%;
+    }
+
+    .ContFiveAlign {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footerAlign {
+        width: 90%;
+    }
+
+    .secondCont2TextCont {
+        width: 70%;
+    }
+
+    .HeroForm {
+        height: 102px;
+        width: 95%;
+    }
+
+    .heroFormCont {
+        width: 100%;
+    }
+
+    .footerAlign1 {
+        height: max-content;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    .ContSixAlign h3 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1001px) {
+
+    .headerMid {
+        gap: 20px;
+    }
+
+    .secondCont2 {
+        flex-direction: column;
+    }
+
+    .secondCont2TextCont {
+        margin-top: 30px;
+        height: max-content;
+    }
+
+    .secondCont2ImgCont {
+        width: 350.4px;
+        height: 560px;
+    }
+
+    .Cont22Text h1 {
+        font-size: 40px;
+    }
+
+    .newclass0 {
+        animation: newclass0 2s linear forwards;
+    }
+
+    .headingCont4 {
+        right: -320px;
+    }
+
+    @keyframes newclass0 {
+        0% {
+            width: 0;
+            height: 0;
+        }
+
+        50% {
+            height: 100%;
+            width: 100%;
+        }
+
+        100% {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .imgCont2ContainerMain img {
+        width: 99%;
+        height: 99%;
+
+        border-top-left-radius: 300px;
+        border-top-right-radius: 300px;
+    }
+
+    .Cont22Text {
+        width: 593px;
+        height: 68px;
+
+        position: absolute;
+        right: 210px;
+        top: 414px;
+
+        z-index: 0;
+
+        transform: rotate(-90deg);
+    }
+
+    .newclass1 {
+        animation: newclass1 1s linear forwards;
+    }
+
+    @keyframes newclass1 {
+        0% {
+            right: 30px;
+            top: 224px;
+            opacity: 0;
+        }
+
+        100% {
+            right: 80px;
+            top: 224px;
+            opacity: 1;
+        }
+    }
+
+    .Cont22Text h1 {
+        width: 100%;
+        font-weight: 700;
+        font-size: 50px;
+        color: var(--Light);
+    }
+
+    .FurtherElips1 {
+        width: 74.18px;
+        height: 74.18px;
+
+        border: none;
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        background: #000;
+
+        position: absolute;
+        top: -40px;
+        left: 250px;
+        z-index: 3;
+    }
+
+    .imgCont4 {
+        margin-right: 0;
+    }
+
+    .newclass2 {
+        animation: newclass2 1s linear forwards;
+    }
+
+    @keyframes newclass2 {
+        0% {
+            top: -40px;
+            left: 250px;
+            rotate: 180deg;
+            opacity: 0;
+        }
+
+        100% {
+            width: 74.18px;
+            height: 74.18px;
+            rotate: 0deg;
+            top: -40px;
+            left: 110px;
+            opacity: 1;
+        }
+    }
+
+    .FurtherElips2 {
+        width: 180.89px;
+        height: 180.89px;
+
+        border: none;
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        background: #000;
+
+        position: absolute;
+        top: -40px;
+        left: 110px;
+        z-index: 3;
+    }
+
+    .newclass3 {
+        animation: newclass3 1s linear forwards;
+    }
+
+    @keyframes newclass3 {
+        0% {
+            width: 74.18px;
+            height: 74.18px;
+            rotate: 180deg;
+            top: -40px;
+            left: 110px;
+            opacity: 0;
+        }
+
+        100% {
+            width: 180.89px;
+            height: 180.89px;
+            rotate: 0deg;
+            top: -20px;
+            left: -70px;
+            opacity: 1;
+        }
+    }
+
+
+    .FurtherElips3 {
+        width: 180.89px;
+        height: 180.89px;
+
+        border: none;
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        background: #000;
+
+        position: absolute;
+        top: -20px;
+        left: -70px;
+        z-index: 3;
+    }
+
+    .newclass4 {
+        animation: newclass4 1s linear forwards;
+    }
+
+    @keyframes newclass4 {
+        0% {
+            width: 180.89px;
+            height: 180.89px;
+            rotate: 180deg;
+            top: -20px;
+            left: -70px;
+            opacity: 0;
+        }
+
+        100% {
+            width: 120px;
+            height: 120px;
+            rotate: 0deg;
+            top: 170px;
+            left: -120px;
+            opacity: 1;
+        }
+    }
+
+    .imgCont2ContainerMain img {
+        width: 99%;
+        height: 99%;
+
+        border-top-left-radius: 300px;
+        border-top-right-radius: 300px;
+    }
+
+    .Cont22Text {
+        width: 593px;
+        height: 68px;
+
+        position: absolute;
+        right: 210px;
+        top: 414px;
+
+        z-index: 0;
+
+        transform: rotate(-90deg);
+    }
+
+    .newclass1 {
+        animation: newclass1 1s linear forwards;
+    }
+
+    @keyframes newclass1 {
+        0% {
+            right: 30px;
+            top: 224px;
+            opacity: 0;
+        }
+
+        100% {
+            right: 80px;
+            top: 224px;
+            opacity: 1;
+        }
+    }
+
+    .Cont22Text h1 {
+        width: 100%;
+        font-weight: 700;
+        font-size: 50px;
+        color: var(--Light);
+    }
+
+    .FurtherElips1 {
+        width: 74.18px;
+        height: 74.18px;
+
+        border: none;
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        background: #000;
+
+        position: absolute;
+        top: -40px;
+        left: 450px;
+        z-index: 3;
+    }
+
+    .newclass2 {
+        animation: newclass2 1s linear forwards;
+    }
+
+    @keyframes newclass2 {
+        0% {
+            top: -40px;
+            left: 450px;
+            rotate: 180deg;
+            opacity: 0;
+        }
+
+        100% {
+            width: 74.18px;
+            height: 74.18px;
+            rotate: 0deg;
+            top: -40px;
+            left: 110px;
+            opacity: 1;
+        }
+    }
+
+    .FurtherElips2 {
+        width: 180.89px;
+        height: 180.89px;
+
+        border: none;
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        background: #000;
+
+        position: absolute;
+        top: -40px;
+        left: 110px;
+        z-index: 3;
+    }
+
+    .newclass3 {
+        animation: newclass3 1s linear forwards;
+    }
+
+    @keyframes newclass3 {
+        0% {
+            width: 74.18px;
+            height: 74.18px;
+            rotate: 180deg;
+            top: -40px;
+            left: 110px;
+            opacity: 0;
+        }
+
+        100% {
+            width: 180.89px;
+            height: 180.89px;
+            rotate: 0deg;
+            top: -20px;
+            left: -70px;
+            opacity: 1;
+        }
+    }
+
+
+    .FurtherElips3 {
+        width: 180.89px;
+        height: 180.89px;
+
+        border: none;
+        border-radius: 50%;
+
+        overflow: hidden;
+
+        background: #000;
+
+        position: absolute;
+        top: -20px;
+        left: -70px;
+        z-index: 3;
+    }
+
+    .newclass4 {
+        animation: newclass4 1s linear forwards;
+    }
+
+    @keyframes newclass4 {
+        0% {
+            width: 180.89px;
+            height: 180.89px;
+            rotate: 180deg;
+            top: -20px;
+            left: -70px;
+            opacity: 0;
+        }
+
+        100% {
+            width: 120px;
+            height: 120px;
+            rotate: 0deg;
+            top: 170px;
+            left: -120px;
+            opacity: 1;
+        }
+    }
+
+    .imgCont2ContainerMain {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondcont3Align {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .aeroplane {
+        right: -250px;
+    }
+
+    .ForthContAlign {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartsCont {
+        top: calc(630.42px + 50px);
+        animation: ShowCarts 20s linear infinite;
+    }
+
+    @keyframes ShowCarts {
+        25% {
+            margin-left: 100%;
+        }
+
+        75% {
+            margin-left: -150%;
+        }
+
+        100% {
+            margin-left: 0%;
+        }
+    }
+
+    .ContFiveAlign {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .AttractUserCont {
+        width: 100%;
+    }
+
+    .HeroForm label input {
+        padding-left: 10px;
+    }
+
+    .HeroForm label select {
+        padding-left: 10px;
+    }
+
+    .FourthContAlignR {
+        width: 350.4px;
+        height: 560px;
+    }
+
+
+    .imgCont4 {
+        width: 99%;
+        height: 99%;
+    }
+
+    .imgcont4Align {
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    .headerAlign {
+        width: 90%;
+    }
+
+    .BarsNavs {
+        display: block;
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .AttractUserCont {
+        margin-top: 160px;
+    }
+
+    .ContThree {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .ContThreeL,
+    .ContThreeR {
+        width: 100%;
+    }
+
+    .ContThreeR {
+        margin-top: 20px;
+    }
+
+    .headerMid {
+        display: none;
+    }
+
+    .headerEnd {
+        display: none;
+    }
+
+    .footerAlign {
+        width: 90%;
+        height: max-content;
+    }
+
+    .footerAlign1 {
+        grid-template-columns: 90%;
+        height: max-content;
+        width: 100%;
+    }
+
+    .MainContendHero {
+        width: 90%;
+    }
+
+    .headingHeroCont {
+        width: 100%;
+    }
+
+
+    .FurtherElips1 {
+        left: 250px;
+    }
+
+    .newclass2 {
+        animation: newclass2 1s linear forwards;
+    }
+
+    @keyframes newclass2 {
+        0% {
+            left: 250px;
+        }
+
+        100% {
+            left: 110px;
+        }
+    }
+
+    .secondCont1 {
+        width: 90%;
+    }
+
+    .SecondContMainGrid {
+        grid-template-columns: repeat(2, 267px);
+        margin-top: 50px;
+    }
+
+    .secondcont3AlignL {
+        width: 90%;
+    }
+
+    .secondCont2TextCont {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .secondCont1 h1 {
+        height: max-content;
+        text-align: center;
+    }
+
+    .SecTextConAlign {
+        width: 100%;
+    }
+
+    .SecTextConAlign h2,
+    .SecTextConAlign h2 {
+        height: max-content;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .headingHeroCont h1 {
+        font-size: 50px;
+    }
+
+    .SecTextConAlign p {
+        height: max-content;
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    .secondcont3AlignR {
+        width: 90%;
+    }
+
+    .cart {
+        margin-left: 0px;
+    }
+
+    .aeroplane {
+        right: -150px;
+    }
+
+    .Contfour h1 {
+        height: 142px;
+        width: 90%;
+    }
+
+    .ContSixAlign {
+        width: 90%;
+        height: max-content;
+    }
+
+    .ContSixContend {
+        width: 100%;
+    }
+
+    .footerGridItem form {
+        width: 100%;
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        top: 82%;
+    }
+
+    .SliderPara::before {
+        top: 10px;
+        left: -10px;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .HeroForm {
+        display: none;
+    }
+
+    .headingHeroCont h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+
+    .heroFormCont,
+    .AttractUserCont {
+        display: none;
+    }
+
+    .SecondContMainGrid {
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .SecondContMainGrid {
+        display: none;
+    }
+
+    .FourthCont {
+        width: 90%;
+    }
+
+    .FourthContAlignL {
+        width: 100%;
+    }
+
+    .FourthContAlignL h1 {
+        display: flex;
+
+    }
+
+    .SecTextConAlign {
+        height: max-content;
+    }
+
+    .SecTextConAlign h1 {
+        height: max-content;
+    }
+
+    .SecTextConAlign p,
+    .FourthContAlignL p {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .secondcont3AlignL {
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        display: none;
+    }
+
+    .carts44 {
+        width: 171px;
+        height: 167px;
+        top: 70px;
+    }
+
+    .seconfCont4LList {
+        display: none;
+    }
+
+    .secondCont1 h1,
+    .secondcont3AlignL h1,
+    .FourthContAlignL h1,
+    .ThirdCont h1,
+    .Contfour h1,
+    .textAlignCont33 h1,
+    .ContSixAlign h1,
+    .SecTextConAlign h1 {
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+    }
+
+    .textAlignCont33 button,
+    .SecTextConAlign button,
+    .FourthContAlignL button {
+        width: 177px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .heading5grid h1 {
+        font-size: 20px;
+    }
+
+    .locationCont p {
+        size: 14px;
+    }
+
+    .priceCont {
+        font-size: 24px;
+    }
+
+    .SecTextConAlign {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .SecTextConAlign h2,
+    .SecTextConAlign h2 {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aeroplane {
+        top: 0px;
+        left: -100px;
+    }
+    .cart {
+        margin-left: 0px;
+        left: 10%;
+    }
+
+    .CartonCart {
+        left: 39%;
+        top: 62%;
+        background-color: #ffffff;
+    }
+
+    .FourthContAlignL {
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .secondCont1 p,
+    .SecTextConAlign h2,
+    .textAlignCont33 h2,
+    .secondcont3AlignL h3,
+    .FourthContAlignL h2,
+    .Contfour p,
+    .ContSixAlign h3 {
+        font-size: 16px;
+    }
+
+
+    .HeroForm2 {
+        display: block;
+        width: 100%;
+        height: 422px;
+        background-color: #ffffff;
+        margin-top: 62px;
+        border-radius: 11px;
+        position: absolute;
+        z-index: 2000;
+        box-shadow: 0px 4px 84px #0000004e;
+
+    }
+
+
+    .SecondCont {
+        margin-top: 40px;
+    }
+
+    .secondCont2ImgCont {
+        width: 247.99px;
+        height: 359.47px;
+        margin-right: -40px;
+    }
+
+    .FourthContAlignR {
+        width: 247.99px;
+        height: 359.47px;
+    }
+
+    .cartsCont {
+        top: calc(450.42px + 50px);
+    }
+
+    .FurtherElips1 {
+        width: 74.18px;
+        height: 74.18px;
+        border: none;
+        border-radius: 50%;
+        overflow: hidden;
+        background: #000;
+        position: absolute;
+        top: -40px;
+        right: 20;
+        z-index: 3;
+    }
+
+
+    .newclass2 {
+        display: none;
+    }
+
+    .cart {
+        margin-left: 0px;
+        left: 0%;
+        width: 223px;
+        height: 300px;
+        top: 40%;
+    }
+
+    .cart img {
+        width: 203px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px;
+        object-fit: contain;
+    }
+
+    .cart h3 {
+        font-size: 13px;
+        margin-top: 28px;
+        margin-left: 15px;
+    }
+
+    .newclass3 {
+        animation: none;
+    }
+
+    .FurtherElips2 {
+        left: -110px;
+    }
+
+
+    .SecTextConAlign p,
+    .FourthContAlignL p,
+    .FourthContAlignL p {
+        font-size: 14px;
+    }
+
+
+    .ContFiveAlign {
+        width: 85%;
+    }
+
+
+
+    .footerGridItem form {
+        width: 95%;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .footerGridItem form input {
+        width: 100%;
+        height: 56px;
+    }
+
+    .footerGridItem form button {
+        width: 100%;
+        height: 56px;
+    }
+
+
+    .endFooterContend p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #62606e80;
+    }
+
+    .footerGridItem p {
+        width: 95%;
+    }
+
+
+    .Cont22Text {
+        right: -30px;
+        top: 24px;
+    }
+
+    .newclass1 {
+        animation: newclass1 1s linear forwards;
+    }
+
+    .newclass1 {
+        to {
+            right: -30px;
+            top: 24px;
+        }
+    }
+
+    .SecongCont22GriD {
+        display: block;
+    }
+
+
+    .secondcont3 {
+        margin-top: 40px;
+    }
+
+    .secondcont3AlignR {
+        width: 90%;
+        margin-top: 150px;
+    }
+
+    
+
+
+    .bgCont23 {
+        left: -50px;
+        bottom: 10%;
+    }
+
+
+    .SecondMobileCont3 {
+        display: block;
+    }
+
+
+}

@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== Css Link ========== -->
+
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+
+    <!-- ========== Responsive Css Link ========== -->
+
+    <link rel="stylesheet" href="./assets/CSS/responsive.css">
+
+    <!-- ========== Font Awsome Link ========== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ========== Google Fonts Link ========== -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- ========== Fav Icon ========== -->
+
+    <link rel="shortcut icon" href="./assets/images/favIcon.png" type="image/x-icon">
+
+
+    <!-- ========== Title ========== -->
+
+    <title>Montain Majesty</title>
+</head>
+
+<body>
+
+    <!-- ++++ HEADER ++++ -->
+    <header>
+        <div class="headerAlign">
+            <div class="headerStart">
+                <img src="./assets/images/LOGO.png" alt="">
+            </div>
+            <ul class="headerMid">
+                <li class="opt">Home</li>
+                <li>About</li>
+                <li onclick="Services()">Services <i class="fa-solid fa-caret-down rotateN" id="DownIcon"></i></li>
+                <li>Upcomming Packages</li>
+            </ul>
+            <div class="headerEnd">
+                <button>Contact Us</button>
+
+            </div>
+            <div class="BarsNavs" onclick="BarsNavs()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="heroCont">
+        <div class="heroBgCarocel">
+            <div class="heroBgCarocelAlign">
+                <div class="cart1 cp1"><img src="./assets/images/hero.jpeg" alt=""></div>
+                <div class="cart1 cp2"><img src="./assets/images/Hero Section.png" alt=""></div>
+                <div class="cart1 cp3"><img src="./assets/images/hero.jpeg" alt=""></div>
+            </div>
+            <div class="HeroImgDarken">
+
+            </div>
+
+            <div class="pagination"></div>
+
+            <div class="ShowMore displayN" id="ShowMore">
+                <ul>
+                    <li>Honeymoon Packages</li>
+                    <li>Tours Packages</li>
+                    <li>Musical Events</li>
+                    <li>Build Package</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="heroContend">
+            <div class="heroContendAlign">
+
+                <div class="MainContendHero">
+
+                    <div class="AnimationVector">
+
+                    </div>
+                    <div class="headingHeroCont">
+                        <h1>No matter where you’re going to, we’ll take you there</h1>
+                    </div>
+                    <div class="heroFormCont">
+
+                    </div>
+                    <form class="HeroForm" action="https://api.web3forms.com/submit" method="POST" required>
+                        <input type="hidden" name="access_key" value="316e1d5c-7ec2-46ac-ba95-723f8fef9093">
+
+                        <label for="Where-To-Go">
+                            <input type="text" name="Where-To-Go" id="Where-To-Go" placeholder="Where to?" required>
+                        </label>
+
+                        <label for="Travel-Type">
+                            <select name="Travel-Type" id="Travel-Type" required>
+                                <option value="Travel-Type" selected>Travel Type</option>
+                                <option value="Solo Travel">Solo Travel</option>
+                                <option value="Honeymoon">Honeymoon</option>
+                                <option value="Luxury Travel">Luxury Travel</option>
+                                <option value="Cultural Travel">Cultural Travel</option>
+                                <option value="Wellness Travel">Wellness Travel</option>
+                                <option value="Romantic Getaways">Romantic Getaways</option>
+                                <option value="Expadition">Expadition</option>
+                                <option value="Eco-Tourism">Eco-Tourism</option>
+                                <option value="Family Travel">Family Travel</option>
+
+                            </select>
+                        </label>
+
+                        <label for="Duration">
+                            <input type="number" name="Duration" id="Duration" placeholder="Duration (days)" required>
+                        </label>
+
+                        <button type="submit">
+                            Submit
+                        </button>
+                    </form>
+
+                    <form action="" class="HeroForm2">
+                        <div class="formAlign22">
+                            <div class="formAlign222">
+                                <p>Search Tours</p>
+                                <fieldset class="FirstFieldSet">
+                                    <legend>
+                                        From - To
+                                    </legend>
+                                    <label for="Place">
+                                        <input type="text" name="From" id="From" placeholder="Karachi">
+                                        <span>-</span>
+                                        <input type="text" name="Tooo" id="Tooo" placeholder="Hunza">
+                                    </label>
+                                </fieldset>
+                                <fieldset class="SecondFieldSet">
+                                    <legend>
+                                        Trip Type
+                                    </legend>
+                                    <label for="Travel-Type">
+                                        <label for="Travel-Type">
+                                            <select name="Travel-Type" id="Travel-Type" required>
+                                                <option value="Undefined" selected>Travel Type</option>
+                                                <option value="Solo Travel">Solo Travel</option>
+                                                <option value="Honeymoon">Honeymoon</option>
+                                                <option value="Luxury Travel">Luxury Travel</option>
+                                                <option value="Cultural Travel">Cultural Travel</option>
+                                                <option value="Wellness Travel">Wellness Travel</option>
+                                                <option value="Romantic Getaways">Romantic Getaways</option>
+                                                <option value="Expadition">Expadition</option>
+                                                <option value="Eco-Tourism">Eco-Tourism</option>
+                                                <option value="Family Travel">Family Travel</option>
+
+                                            </select>
+                                        </label>
+                                    </label>
+                                </fieldset>
+                                <fieldset class="SecondFieldSet">
+                                    <legend>
+                                        Date
+                                    </legend>
+                                    <label for="Date">
+                                        <input type="date" name="Date" id="Date" placeholder="07 Nov 2024">
+                                    </label>
+                                </fieldset>
+
+                                <button class="Form222butt1"><i class="fa-regular fa-paper-plane"></i> Search
+                                    Trips</button>
+                                <button class="Form222butt2"><i class="fa-regular fa-plus"></i> Create Custom
+                                    Tours</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="AttractUserCont">
+                        <div class="imgsCont">
+                            <img src="./assets/images/my picture.jpg" alt="" style="margin-left: 0;">
+                            <img src="./assets/images/my picture.jpg" alt="">
+                            <img src="./assets/images/my picture.jpg" alt="">
+                            <img src="./assets/images/my picture.jpg" alt="">
+                            <img src="./assets/images/my picture.jpg" alt="">
+                            <img src="./assets/images/my picture.jpg" alt="">
+                            <div class="AddImg">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <p>2,500 people booked Tommorowland Event in last 24 hours</p>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+                <div class="heroButtonsCont">
+                    <button id="PREV">↓</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="SecondCont">
+        <div class="secondCont1">
+            <p>CATEGORY</p>
+            <h1>We Offer Best Services</h1>
+
+            <div class="secondCont1Grid">
+
+                <div class="SecondContMainGrid">
+                    <div class="GridItem1">
+                        <div class="GridItem1Align">
+                            <img src="./assets/images/Frame 1000007192.png" alt="">
+                            <h2>Guided Tours</h2>
+                            <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+                        </div>
+                    </div>
+                    <div class="GridItem1">
+                        <div class="GridItem1Align">
+                            <img src="./assets/images/Frame 1000007190.png" alt="">
+                            <h2>Guided Tours</h2>
+                            <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+                        </div>
+                    </div>
+                    <div class="GridItem1">
+                        <div class="GridItem1Align">
+                            <img src="./assets/images/Frame 1000007191.png" alt="">
+                            <h2>Guided Tours</h2>
+                            <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+                        </div>
+                    </div>
+                    <div class="GridItem1">
+                        <div class="GridItem1Align">
+                            <img src="./assets/images/Frame 1000007193.png" alt="">
+                            <h2>Guided Tours</h2>
+                            <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="SecongCont22GriD">
+                <div class="SecongCont22GriDAlign">
+                    <div class="MobileGridItem1">
+                        <div class="MobileGridIAlig">
+                            <img src="./assets/images/Frame 1000007192.png" alt="">
+                            <div class="MobileGridText">
+                                <h2>Guided Tours</h2>
+                                <p>sunt qui repellat saepe quo velit aperiam </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MobileGridItem1">
+                        <div class="MobileGridIAlig">
+                            <img src="./assets/images/Frame 1000007190.png" alt="">
+                            <div class="MobileGridText">
+                                <h2>Best Coomfort Options</h2>
+                                <p>sunt qui repellat saepe quo velit aperiam </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MobileGridItem1">
+                        <div class="MobileGridIAlig">
+                            <img src="./assets/images/Frame 1000007191.png" alt="">
+                            <div class="MobileGridText">
+                                <h2>Religious Tours</h2>
+                                <p>sunt qui repellat saepe quo velit aperiam </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MobileGridItem1">
+                        <div class="MobileGridIAlig">
+                            <img src="./assets/images/Frame 1000007193.png" alt="">
+                            <div class="MobileGridText">
+                                <h2>Medical insurance</h2>
+                                <p>sunt qui repellat saepe quo velit aperiam </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="secondCont2">
+            <div class="secondCont2ImgCont">
+                <div class="imgCont2Container">
+
+                </div>
+                <div class="imgCont2ContainerMain">
+                    <img src="./assets/images/image 5.png" alt="">
+                </div>
+
+                <div class="Cont22Text">
+                    <h1>Honeymoon Packages</h1>
+                </div>
+
+                <div class="FurtherElips1">
+                    <img src="./assets/images/Ellipse 3.png" alt="">
+                </div>
+
+                <div class="FurtherElips2">
+                    <img src="./assets/images/Ellipse 1.png" alt="">
+                </div>
+
+                <div class="FurtherElips3">
+                    <img src="./assets/images/Ellipse 2.png" alt="">
+                </div>
+            </div>
+            <div class="secondCont2TextCont">
+                <div class="SecTextConAlign">
+                    <h2>Honeymoon Specials</h2>
+                    <h1>Our Romantic Tropical Destinations</h1>
+                    <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+                        internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime
+                        quasi aut ducimus illum aut optio quibusdam!</p>
+                    <button>View Packages</button>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="secondcont3">
+            <div class="secondcont3Align">
+                <div class="secondcont3AlignL">
+                    <h3>Fast & Easy</h3>
+                    <h1>Get Your Favourite
+                        Resort Bookings
+                    </h1>
+                    <div class="seconfCont4LList">
+                        <div class="SecondContGridIcon1">
+                            <img src="./assets/images/one1 (3).png" alt="">
+                        </div>
+                        <div class="SecondContGridText">
+                            <h1>Choose Destination</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Urna, tortor tempus. </p>
+                        </div>
+                        <div class="SecondContGridIcon2">
+                            <img src="./assets/images/one1 (2).png" alt="">
+                        </div>
+                        <div class="SecondContGridText">
+                            <h1>Check Availability</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Urna, tortor tempus. </p>
+                        </div>
+                        <div class="SecondContGridIcon3">
+                            <img src="./assets/images/one1 (1).png" alt="">
+                        </div>
+                        <div class="SecondContGridText">
+                            <h1>Let’s Go</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Urna, tortor tempus. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="SecondMobileCont3">
+                    <h3>Fast & Easy</h3>
+                    <h1>Get Your Favourite <br> Resort Bookings</h1>
+                    <div class="SecondGridMobile">
+                        <div class="SecondGridMobileAlign">
+                            <div class="MobileGridItem">
+                                <div class="mobileGridImgCont" style="background-color: #F0BB1F ;">
+                                    <img src="./assets/images/one1 (3).png" alt="">
+                                </div>
+                                <div class="textContMobilescr">
+                                    <h1>Choose Destination</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Urna, tortor tempus. </p>
+                                </div>
+                            </div>
+                            <div class="MobileGridItem">
+                                <div class="mobileGridImgCont" style="background-color: #F15A2B ;">
+                                    <img src="./assets/images/one1 (2).png" alt="">
+                                </div>
+                                <div class="textContMobilescr">
+                                    <h1>Check Availability</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Urna, tortor tempus. </p>
+                                </div>
+                            </div><div class="MobileGridItem">
+                                <div class="mobileGridImgCont" style="background-color: #006380 ;">
+                                    <img src="./assets/images/one1 (1).png" alt="">
+                                </div>
+                                <div class="textContMobilescr">
+                                    <h1>Let’s Go</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit. Urna, tortor tempus. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondcont3AlignR">
+                    <div class="aeroplane">
+                        <img src="./assets/images/aeroplane.png" alt="">
+                    </div>
+                    <div class="bgCont23">
+
+                    </div>
+
+                    <div class="cart">
+                        <img src="./assets/images/Rectangle 17.png" alt="">
+                        <h1>Trip to Hunza</h1>
+                        <p>14 June - 14 August</p>
+                        <div class="ButtonsContGrid">
+                            <button><img src="./assets/images/cart (1).png" alt=""></button>
+                            <button><img src="./assets/images/cart (2).png" alt=""></button>
+                            <button><img src="./assets/images/cart (3).png" alt=""></button>
+                        </div>
+                        <h3>
+                            60 people are interested
+                        </h3>
+
+                    </div>
+
+                    <div class="CartonCart">
+                        <img src="./assets/images/image 32.png" alt="">
+                        <div class="CartOnCArtText">
+                            <p>Ongoing</p>
+                            <h1>Trip to rome</h1>
+                            <h3><span>40% </span> completed</h3>
+                            <div class="progressBar">
+                                <div class="ProgressBarColor"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="ThirdCont">
+            <h1>
+                Let’s make your <br>
+                next holiday amazing
+            </h1>
+        </div>
+
+        <!--  -->
+        <div class="FourthCont">
+            <div class="ForthContAlign">
+                <div class="FourthContAlignL">
+                    <h2>Promotion</h2>
+                    <h1>
+                        We Provide You Best GB <br> Sightseeing Tours
+                    </h1>
+                    <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+                        internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime
+                        quasi aut ducimus illum aut optio quibusdam!
+                    </p>
+                    <button>View Packages</button>
+                </div>
+                <div class="FourthContAlignR">
+                    <div class="imgCont4">
+                        <div class="imgcont4Align">
+                            <img src="./assets/images/image 50.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="headingCont4">
+                        <h1>Breath Taking Viewes</h1>
+                    </div>
+
+                </div>
+                <div class="cartsCont">
+                    <div class="cartsContAlign">
+
+                        <div class="carts44 carts441">
+                            <h1>$800</h1>
+                        </div>
+                        <div class="carts44 carts442">
+                            <h1>$700</h1>
+                        </div>
+                        <div class="carts44 carts443">
+                            <h1>$800</h1>
+                        </div>
+                        <div class="carts44 carts444">
+                            <h1>$500</h1>
+                        </div>
+                        <div class="carts44 carts445">
+                            <h1>$400</h1>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <button class="ButtonHuMa" id="ButtonHuMa"></button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="ContThree">
+        <div class="ContThreeL">
+            <div class="ImgCont33">
+                <img class="imggggg" src="./assets/images/3cont (1).png" alt="">
+            </div>
+            <div class="Cont33BgHover">
+
+            </div>
+            <div class="textAlignCont33">
+                <h2>Promotion</h2>
+                <h1>Explore Nature</h1>
+                <button>View Packages</button>
+            </div>
+        </div>
+        <div class="ContThreeR">
+            <div class="ImgCont33">
+                <img class="imggggg" src="./assets/images/3cont (2).png" alt="">
+            </div>
+            <div class="Cont33BgHover">
+
+            </div>
+            <div class="textAlignCont33">
+                <h2>Promotion</h2>
+                <h1>Explore Cities</h1>
+                <button>View Packages</button>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <div class="Contfour">
+        <p>trendy</p>
+        <h1>Our Trending Tour Packages</h1>
+    </div>
+
+    <!--  -->
+
+    <div class="ContFive">
+        <div class="ContFiveAlign">
+            <div class="Grid5Item">
+                <div class="imgCont5Grid">
+                    <img src="./assets/images/futherCarts (1).png" alt="">
+                </div>
+                <div class="TextCont5Grid">
+                    <span class="TextCont5GSpan">
+                        <span><i class="fa-regular fa-calendar"></i>
+                            <p>8 days</p>
+                        </span>
+                        <span><i class="fa-regular fa-user"></i>
+                            <p>25 People going</p>
+                        </span>
+                    </span>
+                    <div class="heading5grid">
+                        <h1>Hunza</h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </div>
+                    <div class="locationCont">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pakistan</p>
+                    </div>
+                    <div class="priceCont">
+                        <ins>1,000$ </ins><del>1,200 $</del>
+                    </div>
+                    <p class="descriptionCont5">
+                        Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi.
+                        Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+                        internos.
+                    </p>
+                    <button class="buttonCont5">Explore Now</button>
+
+                    <div class="POPUPIMAGE">
+                        <img src="./assets/images/futherCarts (4).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Grid5Item">
+                <div class="imgCont5Grid">
+                    <img src="./assets/images/futherCarts (2).png" alt="">
+                </div>
+                <div class="TextCont5Grid">
+                    <span class="TextCont5GSpan">
+                        <span><i class="fa-regular fa-calendar"></i>
+                            <p>8 days</p>
+                        </span>
+                        <span><i class="fa-regular fa-user"></i>
+                            <p>25 People going</p>
+                        </span>
+                    </span>
+                    <div class="heading5grid">
+                        <h1>Hunza</h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </div>
+                    <div class="locationCont">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pakistan</p>
+                    </div>
+                    <div class="priceCont">
+                        <ins>1,000$ </ins><del>1,200 $</del>
+                    </div>
+                    <p class="descriptionCont5">
+                        Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi.
+                        Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+                        internos.
+                    </p>
+                    <button class="buttonCont5">Explore Now</button>
+
+                    <div class="POPUPIMAGE">
+                        <img src="./assets/images/ffurther (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Grid5Item">
+                <div class="imgCont5Grid">
+                    <img src="./assets/images/futherCarts (3).png" alt="">
+                </div>
+                <div class="TextCont5Grid">
+                    <span class="TextCont5GSpan">
+                        <span><i class="fa-regular fa-calendar"></i>
+                            <p>8 days</p>
+                        </span>
+                        <span><i class="fa-regular fa-user"></i>
+                            <p>25 People going</p>
+                        </span>
+                    </span>
+                    <div class="heading5grid">
+                        <h1>Hunza</h1>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </div>
+                    <div class="locationCont">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pakistan</p>
+                    </div>
+                    <div class="priceCont">
+                        <ins>1,000$ </ins><del>1,200 $</del>
+                    </div>
+                    <p class="descriptionCont5">
+                        Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi.
+                        Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+                        internos.
+                    </p>
+                    <button class="buttonCont5">Explore Now</button>
+
+                    <div class="POPUPIMAGE">
+                        <img src="./assets/images/ffurther (2).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <div class="ContSix">
+        <div class="ContSixAlign">
+            <h3>Promotion</h3>
+            <h1>See What Our Clients Say About Us</h1>
+            <div class="ContSixContend">
+                <div class="carousel">
+                    <div class="slides">
+                        <div class="slide">
+                            <div class="slidesImgCont">
+                                <img src="./assets/images/my picture.jpg" alt="">
+                            </div>
+                            <div class="SlideCont">
+                                <p class="SliderPara">Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                                    magnam et recusandae
+                                    molestiae sit iure unde aut voluptate quaerat. Id sunt provident quo possimus
+                                    impedit vel doloremque obcaecati qui ullam consectetur et ipsum omnis.
+                                    <span>"</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slidesImgCont">
+                                <img src="./assets/images/my picture.jpg" alt="">
+                            </div>
+                            <div class="SlideCont">
+                                <p class="SliderPara">Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                                    magnam et recusandae
+                                    molestiae sit iure unde aut voluptate quaerat. Id sunt provident quo possimus
+                                    impedit vel doloremque obcaecati qui ullam consectetur et ipsum omnis.
+                                    <span>"</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slidesImgCont">
+                                <img src="./assets/images/my picture.jpg" alt="">
+                            </div>
+                            <div class="SlideCont">
+                                <p class="SliderPara">Vel officiis dolor ea illo aut eligendi ullam non laudantium
+                                    magnam et recusandae
+                                    molestiae sit iure unde aut voluptate quaerat. Id sunt provident quo possimus
+                                    impedit vel doloremque obcaecati qui ullam consectetur et ipsum omnis.
+                                    <span>"</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <span class="dot" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>
+                    <button class="prev" onclick="showPrevSlide()">←</button>
+                    <button class="next" onclick="showNextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerAlign">
+            <div class="footerAlign1">
+                <div class="footerGridItem">
+                    <img src="./assets/images/logo.png" alt="">
+                    <p>Travel helps companies manage payments easily.</p>
+                    <div class="logossCont">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="footerGridItem">
+                    <ul>
+                        <li class="Headlist">Company</li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+                <div class="footerGridItem">
+                    <ul>
+                        <li class="Headlist">Destinations</li>
+                        <li>Hunza</li>
+                        <li>Chitral</li>
+                        <li>Skardu</li>
+                        <li>Astore</li>
+                    </ul>
+                </div>
+                <div class="footerGridItem">
+                    <h3>Join Our Newsletter</h3>
+
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </form>
+                    <p>* Will send you weekly updates for your better
+                        tour packages.</p>
+                </div>
+            </div>
+            <div class="endFooter">
+                <div class="endFooterContend">
+                    <p>Copyright @ Mountain Majesty Adventures 2024. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="imgContFooter">
+            <img src="./assets/images/Footer img.png" alt="">
+        </div>
+    </footer>
+
+    <!--  -->
+    <!--  -->
+
+    <div class="NavsAside ImOut" id="NavsAside">
+        <i class="fa-solid fa-xmark" onclick="CloseNavsAside()"></i>
+    </div>
+
+
+    <!-- ========== SCRIPT ========== -->
+
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
